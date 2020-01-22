@@ -29,6 +29,6 @@ def solution(answers):
     answer = compRes(holder)
     return answer
 
-answers = [3,3,1,1,2,1,2,3,4,5,1,]
+answers = [3,3,1,1,2,1,2,3,4,5,1]
 ans = solution(answers)
 print(ans)
