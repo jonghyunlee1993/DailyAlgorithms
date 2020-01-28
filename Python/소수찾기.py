@@ -21,4 +21,4 @@ def solution(n):
         if is_prime(i):
             ct += 1
     
-    return ct
+    return ctㅑㅐ
