@@ -8,4 +8,4 @@ def solution(N, stages):
         challenger = np.sum(np.array(stages) == stage)
         rate[stage] = challenger / passer
     
-    return [item[0] for item in sorted(rate.items(), key=lambda x: x[1], reverse=True)]
+    return sorted(rate, key=lambda x: rate[x], reverse=True)
